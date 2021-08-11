@@ -12,8 +12,8 @@ const ToggleLangs = () => {
   return (
     <div className="container-langs">
       <img src={FrenchFlag} alt="" onClick={() => toggleLang("FR")} />
-      <img src={SpanishFlag} alt="" onClick={() => toggleLang("FR")} />
-      <img src={EnglishFlag} alt="" onClick={() => toggleLang("FR")} />
+      <img src={SpanishFlag} alt="" onClick={() => toggleLang("ES")} />
+      <img src={EnglishFlag} alt="" onClick={() => toggleLang("EN")} />
     </div>
   );
 };
